@@ -33,8 +33,10 @@ def generate_embeddings(texts):
 
 
 # Set up Pinecone
+# index_name is your_vector_store_name and dimension should be equal to the length of your embeddings. 
+# To check length of your embeddings run    len(generate_embeddings("How are you"))
 pc = Pinecone(api_key=PINECONE_API_KEY)
-index = pc.Index("pdfvectorstore")
+index = pc.Index("your_vector_store_name")
 
 
 # Define Pydantic Document model
