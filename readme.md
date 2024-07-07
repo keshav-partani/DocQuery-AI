@@ -18,3 +18,4 @@ Run the Streamlit app using the following command:
     streamlit run app.py
 
 
+![answer](https://github.com/keshav-partani/DocQuery-AI/assets/108050057/33f5165f-75df-442e-a1ef-44c4ea938c94)
